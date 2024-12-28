@@ -10,7 +10,7 @@ jobs:
       matrix:
         sistema_operativo: [windows-latest, ubuntu-latest]
     name: matriz-unidimensional
-    runs-on: ${ matrix.sistema_operativo }
+    runs-on: ${{ matrix.sistema_operativo }}
     steps:
       - name: paso solo para Windows
         if: ${{  matrix.sistema_operativo == 'windows-latest' }}
