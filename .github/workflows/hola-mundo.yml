@@ -2,9 +2,9 @@ name: hola mundo
 
 on:
   workflow_dispatch:
-  schedule:
+  #schedule:
     #- cron: "*/5 * * * *" # se ejecuta cada 5 minutos
-    - cron: "0 1 * * *" # se ejecuta a la 1 de la madrugada
+    #- cron: "0 1 * * *" # se ejecuta a la 1 de la madrugada
   push:
     branches:
       - main
