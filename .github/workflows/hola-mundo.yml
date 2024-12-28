@@ -5,6 +5,8 @@ on:
   push:
     branches:
     - main
+    paths:
+    - '.github/workflows/hola-mundo.yml' #se ejecuta solo si se cambia este archivo
 
 jobs:
   saludar:
