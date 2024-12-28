@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: Mensajes de warning y error
         run: |
-          echo: "un mensaje normal"
-          echo: "::warning::Mensaje de advertencia"
-          echo: "::error:: Este es un mensaje de error"
+          echo "un mensaje normal"
+          echo "::warning::Mensaje de advertencia"
+          echo "::error:: Este es un mensaje de error"
