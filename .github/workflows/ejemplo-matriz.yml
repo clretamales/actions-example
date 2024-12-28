@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        sistema_operativo: [windows-latest, ubuntu-latest, macos.latest]
+        sistema_operativo: [windows-latest, ubuntu-latest, macos-latest]
     name: matriz uni-dimensinal
     runs-on: ${{ matrix.sistema_operativo }}
     steps:
