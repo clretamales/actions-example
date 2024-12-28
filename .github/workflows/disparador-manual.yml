@@ -19,4 +19,4 @@ jobs:
       - name: Mostrando valores inputs
         run: |
           echo "Label: ${{ inputs.texto }}"
-          echi "Build: ${{ inputs.build }}"
+          echo "Build: ${{ inputs.build }}"
